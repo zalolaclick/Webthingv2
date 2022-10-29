@@ -12,5 +12,6 @@ p{
 
 table {
     width: 100%;
-    border: 3px solid #151E3D;
+    border: 3px solid;
+    border-color: #151E3D;
 }
