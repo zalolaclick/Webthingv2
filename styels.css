@@ -1,12 +1,16 @@
 body {
     background-color: ivory;
+}
 
+h1{
+    color: #151E3D;
+}
 
-    div:has(table){
-        table{
-            table-layout: fixed;
-            width: 100%;
-            border: 3px solid;
-        }
-    }
+p{
+    color: #151E3D;
+}
+
+table {
+    width: 100%;
+    border: 3px solid #151E3D;
 }
