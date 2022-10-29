@@ -2,3 +2,8 @@ body {
     background-color: ivory;
 }
 
+div:has(table){
+    table, th{
+        border: 2px solid;
+    }
+}
