@@ -3,11 +3,10 @@ body {
 
 
     div:has(table){
-        table(
+        table{
+            table-layout: fixed;
             width: 100%;
-        )
-        table, th{
-            border: 1px solid;
+            border: 3px solid;
         }
-}
+    }
 }
