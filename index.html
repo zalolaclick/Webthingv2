@@ -5,22 +5,20 @@
         <link rel="stylesheet" href="styels.css">
     </head>
     <body>
-        <script>
-            function delay (URL) {
-                setTimeout(function(){window.location = URL}, 294)
-            }
-        </script>
+        <audio id="Selecty" src="Assests\Sound Effects For Life\Select.wav"></audio>
+        <div>
         <table>
             <tr>
                 <td><img src="Assests\Images\Logo.png" alt="There should be an logo here!"></td>
                 <td>Home</td>
-                <td><A href="javascript.delay('About.html')" onclick="document.getElementById('Select').play()">About</A></td>
+                <td><A href="javascript.delay('About.html')" onclick="document.getElementById('Selecty').play()">About</A></td>
             </tr>
-        </table> 
+        </table>
+        </div>
+        <script>
+            function delay (URL) {
+                setTimeout( function() { window.location = URL }, 5000 );
+            }
+        </script>
     </body>
-
-
-
-<audio id="Select" src="Assests\Sound Effects For Life\Select.wav"></audio>
-
 </html>
