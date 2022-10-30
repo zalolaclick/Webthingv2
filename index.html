@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>This is a random website thing!</title>
-    <link rel="stylesheet" href="styels.css">
-</head>
-<body>
-    <div>
+    <head>
+        <title>This is a random website thing!</title>
+        <link rel="stylesheet" href="styels.css">
+    </head>
+    <body>
         <table>
-           <tr>
-               <td><img src="Assests\Images\Logo.png" alt="There should be an logo here!"></td>
-               <td>Main Page</td>
-               <td><A href = "About.html">About</A></td>
-           </tr>
-        </table>
-    </div>
-    <h1>What is this website for?</h1>
-    <p>This website is for absolutely nothing practical!</p>
-    <img src="Assests\Images\Red-Crewmate.png" alt="There should be an Among Us crew mate here!">
-</body>
+            <tr>
+                <td><img src="Assests\Images\Logo.png" alt="There should be an logo here!"></td>
+                <td>Home</td>
+                <td><A href="javascript.delay('About.html')" onclick="document.getElementById('Select').play()">About</A></td>
+            </tr>
+        </table> 
+    </body>
+
+
+<script>
+    function delay (URL) {
+        setTimeout(function(){window.location = URL}, 294)
+    }
+</script>
+
+<audio id="Select" src="Assests\Sound Effects For Life\Select.wav"></audio>
+
 </html>
