@@ -2,9 +2,29 @@
 <html lang="en">
     <head>
         <title>This is a random website thing!</title>
-        <link rel="stylesheet" href="styels.css">
+        <link rel="stylesheet" href="javascript.Darkmode()">
     </head>
     <body>
+        <script type="text/javascript">
+            darkmody = false
+            function Darkmode(stylething){
+                if (darkmody == false) {
+                    return(styels.css)
+                }
+                else {
+                    return(nightstyles.css)
+                }
+            }
+
+            function changeDarkmode(){
+                if (darkmody == false){
+                    darkmody = true
+                }
+                else{
+                    darkmody = false
+                }
+            }
+        </script>
         <audio id="Selecty" src="Assests\Sound Effects For Life\Select.wav"></audio>
         <div>
         <table>
@@ -12,6 +32,7 @@
                 <td><img src="Assests\Images\Logo.png" alt="There should be an logo here!"></td>
                 <td>Home</td>
                 <td><A href="About.html">About</A></td>
+                <tf><a href="index.html" onclick="javascript.changeDarkmode">Change to light/dark theme</a></tf>
             </tr>
         </table>
         </div>
