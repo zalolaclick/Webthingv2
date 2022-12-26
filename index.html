@@ -6,17 +6,19 @@
         <meta name="prefers-color-scheme" content="dark light"
     </head>
     <body>
+        <audio id="ClickedTheLogo" src="Assests\Sounds Effects For Life\ClickedTheLogo.mp3.mp3"></audio>
         <audio id="Selecty" src="Assests\Sound Effects For Life\Select.wav"></audio>
         <div>
         <table>
             <tr>
-                <td><img src="Assests\Images\Logo.png" alt="There should be an logo here!"></td>
+                <td><img src="Assests\Images\Logo.png" alt="There should be an logo here!" onclick=getElementById("ClickedTheLogo")></td>
                 <td>Home</td>
                 <td><A href="About.html">About</A></td>
             </tr>
         </table>
         </div>
-        <label for="ThisTexturebox">ThisTexturebox</label>
-        <input type="text" id="ThisTexturebox" name="Please type in here!">
+        <p onclick=DarkModeToggle()></p>
+        <label for="Text:">Random Text Box:</label>
+        <input type="text" id="Text:" name="Please type in here!">
     </body>
 </html>
