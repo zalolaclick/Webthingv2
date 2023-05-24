@@ -24,11 +24,11 @@ p{
 
 table {
     width: 100%;
-    border: 3px solid;
+    border: 5px solid;
     border-collapse:collapse;
     border-color: #151E3D;
     padding: 3px;
-    border-radius: 3px;
+    border-radius: 25px;
     }
 }
 
