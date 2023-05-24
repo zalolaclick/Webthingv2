@@ -23,6 +23,7 @@ p{
 }
 
 table {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
     border: 5px solid;
     border-collapse:collapse;
@@ -31,4 +32,3 @@ table {
     border-radius: 25px;
     }
 }
-
