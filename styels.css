@@ -27,6 +27,8 @@ table {
     border: 3px solid;
     border-collapse:collapse;
     border-color: #151E3D;
+    padding: 3px;
+    border-radius: 3px;
     }
 }
 
