@@ -8,22 +8,17 @@ html, body, {
 
 body {
     background-color: ivory;
-    @media screen and (prefers-color-scheme: dark) {
         
     }
 }
 
 h1{
     color: #151E3D;
-    @media screen and (prefers-color-scheme: dark) {
-        color: ivory;
     }
 }
 
 p{
     color: #151E3D:
-    @media screen and (prefers-color-scheme: dark) {
-        color: ivory:
     }
 }
 
@@ -32,8 +27,6 @@ table {
     border: 3px solid;
     border-collapse:collapse;
     border-color: #151E3D;
-    @media screen and (prefers-color-scheme: dark)  {
-        border-color: ivory;
     }
 }
 
