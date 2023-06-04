@@ -80,7 +80,7 @@ table {
     list-style-type: none;
     margin: 5px;
     padding: 0;
-	display: block;
+	display: flex;
 	width: 100%;
 }
 
