@@ -79,4 +79,13 @@ table {
     list-style-type: none;
     margin: 0;
     padding: 0;
+	display: block;
+}
+
+.NavBar ul li b{
+	background-color: #151E3D;
+}
+
+.NavBar ul li a{
+	background-color: ivory;
 }
