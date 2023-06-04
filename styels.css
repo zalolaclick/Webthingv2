@@ -10,11 +10,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	padding: 0;
 	border: 0;
 	outline: 0;
-	font-weight: inherit;
-	font-style: inherit;
+	font-weight: normal;
+	font-style: normal;
 	font-size: 100%;
-	font-family: inherit;
-	vertical-align: baseline;
+	font-family: 'Brush Script MT', cursive;
+	vertical-align: middle;
 }
 /* remember to define focus styles! */
 :focus {
@@ -23,7 +23,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body {
 	line-height: 1;
 	color: #151E3D;
-	background: ivory;
+	background-color: ivory;
 }
 ol, ul {
 	list-style: none;
@@ -53,12 +53,6 @@ html body {
     right: 0;
 }
 
-
-body {
-    background-color: ivory;
-}
-
-
 h1{
     color: #151E3D;
 }
@@ -70,15 +64,17 @@ p{
 
 
 table {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
     border: 5px solid;
     border-collapse:collapse;
     border-color: #151E3D;
     padding: 3px;
     border-radius: 25px;
-    }
+}
 
+.NavBar ul{
+	text-align: center;
+}
 .NavBar ul li{
     list-style-type: none;
     margin: 0;
