@@ -78,9 +78,10 @@ table {
 }
 .NavBar ul li{
     list-style-type: none;
-    margin: 0;
+    margin: 5px;
     padding: 0;
 	display: block;
+	width: 100%;
 }
 
 .NavBar ul li b{
