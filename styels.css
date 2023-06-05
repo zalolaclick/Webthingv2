@@ -53,6 +53,12 @@ html body {
     right: 0;
 }
 
+h3{
+	font-size: 100%;
+	font-weight: 900;
+	text-align: center;
+}
+
 h2{
 	color: ivory;
 	font-weight: bolder;
