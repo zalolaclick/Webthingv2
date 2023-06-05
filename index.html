@@ -2,12 +2,20 @@
 <html lang="en">
     <head>
         <title>This is a random website thing!</title>
+        <link rel="icon" type="image/x-icon" href="Assests\Icon\Logo.ico">
         <link rel="stylesheet" href="styels.css">
     </head>
+    <script>
+        function play(){
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    </script>
     <body>
         <div class="NavBar">
             <ul>
-                <img src="Assests/Images/Logo.png" alt="Logo" class="center">
+                <img src="Assests/Images/Logo.png" alt="Logo" class="center" type="button" value="PLAY" onclick="play()">
+                <audio id="audio" src="Assests/Sound Effects For Life/ClickedTheLogo.mp3.mp3"></audio>
                 <li><a class="active">Home</a></li>
                 <li><a href="About.html">About</a></li>
             </ul>
