@@ -54,10 +54,11 @@ html body {
 }
 
 h2{
-	color: #151E3D;
+	color: ivory;
 	font-weight: bolder;
 	font-size: xx-large;
 	text-align: center;
+	background-color: #151E3D;
 }
 
 h1{
@@ -72,7 +73,7 @@ p{
 }
 
 .NavBar ul{
-	text-align: none;
+	text-align: center;
 	margin: 0;
 	padding: 5px;
 	width: 5%;
@@ -91,19 +92,20 @@ p{
 
 .NavBar ul li{
 	display: block;
-	white-space: nowrap;
+	padding: auto;
 }
 
 .NavBar ul li a{
-	background-color: ivory;
+	background-color: #81818A;
 	font-size: auto;
 	margin-top: 1%;
 	margin-bottom: 1%;
+	color: ivory;
 }
 
 .NavBar ul li a.active{
-	background-color: #151E3D;
-	color: ivory;
+	background-color: ivory;
+	color: #151E3D;
 }
 
 .NavBar ul li a:hover:not(.active){
