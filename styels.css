@@ -53,8 +53,17 @@ html body {
     right: 0;
 }
 
+h2{
+	color: #151E3D;
+	font-weight: bolder;
+	font-size: xx-large;
+	text-align: center;
+}
+
 h1{
     color: #151E3D;
+	font-weight: bold;
+	font-size: x-large;
 }
 
 
@@ -62,35 +71,42 @@ p{
     color: #151E3D;
 }
 
-
-table {
-    width: 100%;
-    border: 5px solid;
-    border-collapse:collapse;
-    border-color: #151E3D;
-    padding: 3px;
-    border-radius: 25px;
-}
-
 .NavBar ul{
-	text-align: center;
-	width: 100%;
-}
-.NavBar ul li{
-    list-style-type: none;
-    margin: 5px;
-    padding: 0;
-	display: flex;
-	width: 100%;
+	text-align: none;
+	margin: 0;
+	padding: 5px;
+	width: 5%;
+	background-color: #151E3D;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
 }
 
-.NavBar ul li b{
-	background-color: #151E3D;
-	color: ivory;
-	font-size: 30px;
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.NavBar ul li{
+	display: block;
+	white-space: nowrap;
 }
 
 .NavBar ul li a{
 	background-color: ivory;
-	font-size: 30px;
+	font-size: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.NavBar ul li a.active{
+	background-color: #151E3D;
+	color: ivory;
+}
+
+.NavBar ul li a:hover:not(.active){
+	background-color: #31a8f7;
+	color: ivory;
 }
