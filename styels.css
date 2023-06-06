@@ -57,7 +57,7 @@ h3{
 	font-size: 10vw;
 	font-weight: bolder;
 	text-align: center;
-	vertical-align: auto;
+	vertical-align: -webkit-baseline-middle;
 }
 
 h2{
