@@ -54,7 +54,7 @@ html body {
 }
 
 h3{
-	font-size: 0vmax;
+	font-size: 100vw;
 	font-weight: bolder;
 	text-align: center;
 	vertical-align: auto;
