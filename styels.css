@@ -13,7 +13,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-weight: normal;
 	font-style: normal;
 	font-size: 100%;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Arial, Helvetica, sans-serif;
 	vertical-align: middle;
 }
 /* remember to define focus styles! */
@@ -54,9 +54,10 @@ html body {
 }
 
 h3{
-	font-size: 100%;
-	font-weight: 900;
+	font-size: 0vmax;
+	font-weight: bolder;
 	text-align: center;
+	vertical-align: middle;
 }
 
 h2{
