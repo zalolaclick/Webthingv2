@@ -104,11 +104,10 @@ p{
 
 .NavBar ul li a{
 	background-color: #81818A;
-	font-size: auto;
+	font-size: 1vw;
 	margin-top: auto;
 	margin-bottom: auto;
 	color: ivory;
-	text-size-adjust: auto;
 }
 
 .NavBar ul li a.active{
