@@ -79,41 +79,31 @@ p{
     color: #151E3D;
 }
 
-.NavBar ul{
-	text-align: center;
-	margin: 0;
-	padding: 5px;
-	width: 100%;
-	background-color: #151E3D;
-	height: 5%;
-	position: fixed;
-	overflow: auto;
-}
-
 .center{
-	display: inline-block;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 }
 
-.NavBar ul li{
-	display: inline-block;
+.NavBar li{
+	display: block;
 	padding: auto;
+	float: left;
 }
 
-.NavBar ul li a{
+.NavBar li a{
 	background-color: #81818A;
 	font-size: 1vw;
 	color: ivory;
 }
 
-.NavBar ul li a.active{
+.NavBar li a.active{
 	background-color: ivory;
 	color: #151E3D;
 }
 
-.NavBar ul li a:hover:not(.active){
+.NavBar li a:hover:not(.active){
 	background-color: #31a8f7;
 	color: ivory;
 }
