@@ -83,22 +83,22 @@ p{
 	text-align: center;
 	margin: 0;
 	padding: 5px;
-	width: 5%;
+	width: 100%;
 	background-color: #151E3D;
-	height: 100%;
+	height: 5%;
 	position: fixed;
 	overflow: auto;
 }
 
 .center{
-	display: block;
+	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 }
 
 .NavBar ul li{
-	display: block;
+	display: inline;
 	padding: auto;
 }
 
