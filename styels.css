@@ -90,6 +90,14 @@ p{
 	display: block;
 	padding: auto;
 	float: left;
+	min-width: fit-content;
+	border-right: 1px solid ivory;
+
+}
+
+.NavBar li:last-child{
+	border-right: none;
+	border-left: 1px solid ivory;
 }
 
 .NavBar li a{
