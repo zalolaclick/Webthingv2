@@ -46,7 +46,7 @@ blockquote, q {
 }
 
 html body {
-    position:fixed;
+    position:static;
     top:0;
     bottom: 0;
     left: 0;
@@ -54,10 +54,12 @@ html body {
 }
 
 h3{
-	font-size: 10vw;
+	font-size: xx-large;
 	font-weight: bolder;
 	text-align: center;
 	vertical-align: -webkit-baseline-middle;
+	height: max-content;
+	width: max-content;
 }
 
 h2{
@@ -86,32 +88,50 @@ p{
 	width: 50%;
 }
 
-.NavBar li{
-	display: block;
+.NavBar{
+	background-color: #151E3D;
+}
+
+.NavBar ul{
+	list-style-type: none;
+	width: 100%;
+	display: flex;
+	height: 5%;
+	align-items: stretch;
+}
+
+.NavBar ul li{
 	padding: auto;
 	float: left;
 	min-width: fit-content;
-	border-right: 1px solid ivory;
+	display: flexbox;
+	align-self: center;
 
 }
 
-.NavBar li:last-child{
+.NavBar ul li:last-child{
 	border-right: none;
-	border-left: 1px solid ivory;
+	margin-left: auto;
 }
 
-.NavBar li a{
+.NavBar ul li a{
 	background-color: #81818A;
-	font-size: 1vw;
+	font-size: max-content;
 	color: ivory;
+	vertical-align: middle;
 }
 
-.NavBar li a.active{
+.NavBar ul li a.active{
 	background-color: ivory;
 	color: #151E3D;
 }
 
-.NavBar li a:hover:not(.active){
+.NavBar ul li a:hover:not(.active){
 	background-color: #31a8f7;
 	color: ivory;
+}
+
+.NavBar ul li img{
+	max-width: fit-content;
+	max-height: fit-content;
 }
