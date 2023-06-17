@@ -81,6 +81,13 @@ p{
     color: #151E3D;
 }
 
+img{
+	min-height: fit-content;
+	min-width: fit-content;
+	max-width: max-content;
+	max-height: max-content;
+}
+
 .center{
 	display: block;
 	margin-left: auto;
@@ -132,6 +139,8 @@ p{
 }
 
 .NavBar ul li img{
+	min-width: min-content;
+	min-height: min-content;
 	max-width: fit-content;
 	max-height: fit-content;
 }
