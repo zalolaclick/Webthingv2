@@ -54,12 +54,9 @@ html body {
 }
 
 h3{
-	font-size: xx-large;
-	font-weight: bolder;
+	font-size: large;
+	font-weight: bold;
 	text-align: center;
-	vertical-align: -webkit-baseline-middle;
-	height: max-content;
-	width: max-content;
 }
 
 h2{
