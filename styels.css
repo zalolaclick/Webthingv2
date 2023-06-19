@@ -150,3 +150,19 @@ footer{
 footer p{
 	color: ivory;
 }
+
+footer p a:link{
+	color: #81818A;
+}
+
+footer p a:visited{
+	color: #81818A;
+}
+
+footer p a:hover{
+	color:#31a8f7;
+}
+
+footer p a:active{
+	color: ivory;
+}
