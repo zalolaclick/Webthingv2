@@ -149,6 +149,11 @@ footer{
 
 footer p{
 	color: ivory;
+	text-align: center;
+}
+
+footer p a{
+	text-align: center;
 }
 
 footer p a:link{
