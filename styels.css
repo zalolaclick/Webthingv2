@@ -142,3 +142,11 @@ img{
 	max-width: fit-content;
 	max-height: fit-content;
 }
+
+footer{
+	background-color: #151E3D;
+}
+
+footer p{
+	color: ivory;
+}
