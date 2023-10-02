@@ -145,6 +145,9 @@ img{
 
 footer{
 	background-color: #151E3D;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 footer p{
