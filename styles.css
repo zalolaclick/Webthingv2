@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background-color: ivory;
+	color: #151E3D;
+}
+
+.NavBar div, ul, .NavBar li, .NavBar p, .NavBar a {
+	display: flex;
+	background-color: #151E3D;
+	color: ivory;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	flex-basis: 1 1 0px;
+	font-size: 1.25em;
+}
+
+.NavBar ul {
+	list-style-type: none
+	overflow: hidden;
+	justify-content: space-between;
+}
+.NavBar li {
+}
+
+.NavBar img {
+	display: flex;
+	width: fit-content;
+	height: fit-content;
+	flex-basis: 1 1 0px;
+}
+
+.NavBar a {
+	color: ivory;
+	vertical-align: center;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+}
+
+.NavBar a:hover {
+	background-color: #81818A;
+	color: ivory;
+}
+
+.NavBar a:active {
+	background-color: ivory;
+	color: #31a8f7;
+}
+
+.NavBar a.active {
+	background: #31a8f7;
+	color: ivory;
+}
+
+footer {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+footer p, footer a {
+	display: block;
+	background-color: #151E3D;
+	color: ivory;
+	width: 100%;
+}
+
+footer a:link, footer a:visited {
+	color: #31a8f7;
+}
+
+footer a:hover {
+	color: #81818A;
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	background-color: #151E3D;
+	color: ivory;
+}
+
+h1 {
+	font-size: 1.5em;
+}
